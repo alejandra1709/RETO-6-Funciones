@@ -723,5 +723,24 @@ def raiz (n1:float) -> float:
 ```
 >***9. Consultar qué es y cómo funciona pip en python.***
 
+pip es el acrónimo de pip installs packages, es un sistema de géstion de paquetes que simplifica la instalación y administración de paquetes de python, permitiendo así que los desarrollaodres puedan instalar, actualizar y desinstalar de forma sencilla bibliotecas, dependencias y herramientas adicionales que no están incluidas cuando se instala python de forma estándar.
+
+Desde la versión 3.4 en adelante, pip viene preinstalado con python y su funcionamiento es sencillo, pip está integrado con el Python Package Index/Índice de paquetes de python (PyPI), el cual es un repositorio de software para la comunidad de python, en donde los desarrolladores pueden publicar sus paquetes de código abierto para que otros puedan utlizarlo, por lo tanto, con pip se pueden paquetes disponibles en PyPI, se pueden instalar los paquetes, actualizar los paquetes, desinstalar los paquetes e incluso listar los paquetes instalados en el sistema, todo por medio de comandos simples en el terminal o símbolo del sistema.
+
 >***10. Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.***
 
+Para instalar cualquier paquete, solo se requiere escribir en el terminal el siguiente comando, en donde package-name, es el respectivo nombre del paquete que se quiere instalar:
+```
+pip install package-name
+```
+Algunos de los módulos más populares de python son:
+
+|    Nombre    |                        Uso                       |
+|--------------|--------------------------------------------------|
+| Flask        | Crear rápidamente aplicaciones web.              |
+| NumPy        | Computación científica.                          | 
+| Pandas       | Análisis de datos.                               |
+| Matplotlib   | Visualización de datos.                          | 
+| SciPy        | Funcionalidades adicionales para NumPy.          |             
+| Sckit-learn  | Machine Learning.                                | 
+| TensorFlow   | Construir y entrenar modelos de machine learning.| 

@@ -703,7 +703,11 @@ def orden (a:float,b:float,c:float,d:float,e:float) -> float:
     return[n1,n2,n3,n4,n5]    
 
 def promedio_multiplicativo(a:float,b:float,c:float,d:float,e:float) -> float:
-    prom_mult=(a*b*c*d*e)**0.2
+    mult=(a*b*c*d*e)
+    if mult <0:
+        prom_mult=(-mult)**0.2*-1
+    else:
+        prom_mult=mult**0.2
     return prom_mult
 
 def potencia(n1:float,n5:float) -> float:
@@ -711,7 +715,10 @@ def potencia(n1:float,n5:float) -> float:
     return pot
 
 def raiz (n1:float) -> float:
-    raiz_menor=n1**(1/3)
+    if n1<0:
+        raiz_menor=(-n1)**(1/3)*-1
+    else:
+        raiz_menor=n1**(1/3)
     return raiz_menor
 ```
 >***9. Consultar qué es y cómo funciona pip en python.***
